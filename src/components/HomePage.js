@@ -14,7 +14,7 @@ const Home = () => {
 
 	useEffect(() => {
 		const fetchMovies = async () => {
-			const url = `https://api.themoviedb.org/3/discover/movie?api_key=f6f869bdbe9f5928b68c55d9cdd34333&language=en-US&sort_by=${sort}&include_adult=false&include_video=false&page=1&with_genres=${genres}&with_watch_monetization_types=flatrate
+			const url = `https://api.themoviedb.org/3/discover/movie?api_key={API_KEY}&language=en-US&sort_by=${sort}&include_adult=false&include_video=false&page=1&with_genres=${genres}&with_watch_monetization_types=flatrate
 			`
 			try {
 				const res = await fetch(url);
