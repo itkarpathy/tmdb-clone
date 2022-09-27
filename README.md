@@ -11,6 +11,8 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+Live link: https://tmdb-clone-challenge.netlify.app/
+
 
 Main fatures: Search, Sorting, details by id. Movie statistic in separate page. 
 
