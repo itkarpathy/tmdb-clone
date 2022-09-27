@@ -6,7 +6,7 @@ export const moviesApi = createApi({
 	reducerPath: 'moviesApi',
 	baseQuery: fetchBaseQuery({
 		baseUrl: `https://api.themoviedb.org/3/search/movie?
-		api_key=f6f869bdbe9f5928b68c55d9cdd34333&query={}
+		api_key={API_KEY}&query={}
 	` }),
 	endpoints: (builder) => ({
 		getMoviesByName: builder.query({
