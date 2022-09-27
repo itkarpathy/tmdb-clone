@@ -7,7 +7,7 @@ const DetailsPage = () => {
 	const [details, setDetails] = useState('')
 
 	useEffect(() => {
-		fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=f6f869bdbe9f5928b68c55d9cdd34333`)
+		fetch(`https://api.themoviedb.org/3/movie/${id}?api_key={API_KEY}`)
 			.then((response) => response.json())
 			.then((data) => setDetails(data));
 	}, [id])
